@@ -1,8 +1,7 @@
 #  Local LLM Git Watcher
 
-Automized tool for Code Reviews that works locally.
-Tracks new changes in Git-repository, filters junk-files and uses local LLM model (using ollama) for code analyze to find any vulnerabilities.
-
+Automated tool for local Code Reviews. 
+Tracks changes in a Git repository, filters out junk files, and uses a local LLM (via Ollama) to analyze code for vulnerabilities and code smells.
 
 ## Features
 * **Works locally:** Uses Ollama, no data are being saved or collected in the cloud.
@@ -29,3 +28,4 @@ Tracks new changes in Git-repository, filters junk-files and uses local LLM mode
 
 
 3. Start: `uvicorn main:app --reload`
+
