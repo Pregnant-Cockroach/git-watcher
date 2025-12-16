@@ -27,4 +27,5 @@ Tracks new changes in Git-repository, filters junk-files and uses local LLM mode
     <br>
     `MODEL=model`
 
+
 3. Start: `uvicorn main:app --reload`
